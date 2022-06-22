@@ -1,7 +1,7 @@
 
-![Raspberrypi-Libav-HWA-Encoder](https://github.com/EhsanVahab/Raspberrypi-LibAV-HWA-Encoder/blob/main/logo.jpg?raw=true "Raspberrypi-Libav-HWA-Encoder")
-# Raspberrypi-Libav-HWA-Encoder
-Encoding Raspberrypi Cameras's Frame to H264 with Libav and HWA of Raspberrypi
+![myimagetitle](https://github.com/EhsanVahab/Raspberrypi-LibAV-HWA-Encoder/blob/main/logo.jpg?raw=true "myimagetitle")
+# Raspberrypi-LibAV-HWA-Encoder
+Encoding Raspberrypi Cameras's Frame to H264 with LibAV and HWA of Raspberrypi
 
 1. install raspbian on your SD Card.
 2. install dependencies FFMPEG as following:
@@ -141,4 +141,18 @@ cd zimg-release-3.0.1
 13. ./Encoder
 
 the file ***sample.h264*** is ready to use
+
+
+## Benchmark on Raspberrypi 3b+
+| Resolution  |   Bit Rate|  CPU Usage | Frame Rate  |
+| :------------: | :------------: | :------------: | :------------: |
+| 1280x960  | 100,000 | ~21%  | 16  |
+| 800x600  | 100,000  | ~19%  | 36  |
+| 640x480  | 100,000  | ~18%  | 50  |
+| 1280x960  | 200,000 | ~24%  | 16  |
+| 800x600  | 200,000  |  ~22% | 36  |
+| 640x480  | 200,000  |  ~20% |  50 |
+
+
+
 
