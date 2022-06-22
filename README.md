@@ -140,5 +140,5 @@ cd zimg-release-3.0.1
 12. make
 13. ./Encoder
 
-sample.h264 is ready to use
+the file ***sample.h264*** is ready to use
 
