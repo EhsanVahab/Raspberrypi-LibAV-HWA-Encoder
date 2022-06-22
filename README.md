@@ -143,7 +143,7 @@ cd zimg-release-3.0.1
 the file ***sample.h264*** is ready to use
 
 
-## Benchmark on Raspberrypi 3b+
+## Raspberrypi 3b+ HWA Encoder Benchmark 
 | Resolution  |   Bit Rate|  CPU Usage | Frame Rate  |
 | :------------: | :------------: | :------------: | :------------: |
 | 1280x960  | 100,000 | ~21%  | 16  |
