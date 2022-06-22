@@ -92,7 +92,7 @@ cd zimg-release-3.0.1
 
 3. download and extract ffmpeg **4.3.1**
 4. cp omx.c  /yourpath/FFmpeg-n4.3.1/libavcodec/omx.c #pathing the ffmpeg bug to use HWA
-5. cd /yourpath/FFmpeg-n4.3.1 and run the following command:
+5. cd /yourpath/FFmpeg-n4.3.1 and configure with the following command:
 
 ```bash
 ./configure \
