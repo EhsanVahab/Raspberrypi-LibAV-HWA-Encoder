@@ -65,23 +65,28 @@ sudo sudo apt-get -y install \
     zlib1g-dev
 ```
 
-# To disable remove --enable-libkvazaar
+#### To disable remove --enable-libkvazaar
 
-    git clone --depth 1 "https://github.com/ultravideo/kvazaar.git" 
+   ```bash
+ git clone --depth 1 "https://github.com/ultravideo/kvazaar.git" 
         && ./autogen.sh \
         && ./configure \
         && make -j$(2) \
         && sudo make install
+```
 
-# To disable, remove --enable-libzimg
+#### To disable, remove --enable-libzimg
+
+```bash
 wget https://github.com/sekrit-twc/zimg/archive/refs/tags/release-3.0.1.tar.gz
 tar -xvzf release-3.0.1.tar.gz
 cd zimg-release-3.0.1
 
     ./autogen.sh \
-    && ./configure \
-    && make -j$(2) \
-    && sudo make install
+      && ./configure \
+      && make -j$(2) \
+      && sudo make install
+```
 
 
 
