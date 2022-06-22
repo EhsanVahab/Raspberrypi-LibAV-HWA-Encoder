@@ -1,7 +1,7 @@
 
-![Raspberrypi-LibAV-HWA-Encoder](https://github.com/EhsanVahab/Raspberrypi-LibAV-HWA-Encoder/blob/main/logo.jpg?raw=true "Raspberrypi-LibAV-HWA-Encoder")
-# Raspberrypi-LibAV-HWA-Encoder
-Encoding Raspberrypi Cameras's Frame to H264 with LibAV and HWA of Raspberrypi
+![Raspberrypi-Libav-HWA-Encoder](https://github.com/EhsanVahab/Raspberrypi-LibAV-HWA-Encoder/blob/main/logo.jpg?raw=true "Raspberrypi-Libav-HWA-Encoder")
+# Raspberrypi-Libav-HWA-Encoder
+Encoding Raspberrypi Cameras's Frame to H264 with Libav and HWA of Raspberrypi
 
 1. install raspbian on your SD Card.
 2. install dependencies FFMPEG as following:
